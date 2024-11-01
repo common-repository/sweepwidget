@@ -1,0 +1,468 @@
+.sweepwidget_iframe_wrapper iframe {
+  width: 100%;
+  float:left;
+}
+
+.sweepwidget_content_wrapper {
+  width:100%;
+  margin:0 0 35px 0;
+  padding:20px 30px;
+  font-size:16px;
+  background:#e5f2ff;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  -o-border-radius:3px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float:left;
+}
+
+#sweepwidget_wrapper {
+  width:100%;
+  margin-left:-20px;
+  padding-right:20px;
+  min-height:800px;
+  background:#fff;
+  float:left;
+}
+
+#sweepwidget_wrapper_inner {
+  width:100%;
+  padding:20px 30px 30px 30px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float:left;
+}
+
+#sweepwidget_header {
+  width:100%;
+  margin:0 0 20px 0;
+  text-align:center;
+  float:left;
+}
+
+#sweepwidget_header img {
+  width:100%;
+  max-width:350px;
+}
+
+#sweepwidget_nav_holder, #sweepwidget_nav_holder_2 {
+  width:100%;
+  margin:5px 0;
+  text-align:center;
+  float:left;
+}
+
+#sweepwidget_nav_holder a, #sweepwidget_nav_holder_2 a {
+  margin:0px 10px 10px 0;
+  padding:13px 25px;
+  background:#3652a3;
+  color:#fff;
+  font-size:17px;
+  text-decoration:none;
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  -o-border-radius:30px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  display:inline-block;
+}
+
+#sweepwidget_nav_holder a:hover, #sweepwidget_nav_holder_2 a:hover {
+  opacity:0.8;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#sweepwidget_campaigns_holder {
+  width:100%;
+  margin:25px 0 0 0;
+  font-size: 16px;
+  padding:30px;
+  background:#fff;
+  border:1px solid #ccc;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  -o-border-radius:3px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float:left;
+}
+
+
+.user_competitions_each_holder {
+  width: 100%;
+  margin: 20px 0% 0 0%;
+  padding: 20px 0;
+  -webkit-box-shadow: 0px 0px 13px 0px rgb(215, 215, 215);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(215, 215, 215);
+  box-shadow: 0px 0px 13px 0px rgba(215, 215, 215);
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+  float: left;
+}
+
+.user_competitions_each_holder_inner {
+  width:90%;
+  padding-left:25px;
+  padding-right:3%;
+  float:left;
+}
+
+.user_competitions_each_holder_full {
+  width: 100%;
+  margin: 0;
+  float: left;
+}
+.user_competitions_each_holder_l {
+  width:20%;
+  max-width: 150px;
+  margin-right:25px;
+  margin-bottom:20px;
+  float: left;
+}
+.user_competitions_each_holder_l img {
+  width: 100%;
+  height: auto;
+  margin: 0px 0 0 0;
+  max-width: 100px;
+  float: left;
+}
+.user_competitions_each_holder_r {
+  width: 75%;
+  margin: 0;
+  float: left;
+}
+
+@media only screen and (max-width:1000px) {
+
+  .user_competitions_each_holder {
+      width: 100%;
+      margin: 20px 0 0 0;
+  }
+
+}
+
+@media only screen and (max-width:700px) {
+  .user_competitions_each_holder_inner {
+      width:100%;
+      padding-left:0;
+      float:left;
+  }
+  .user_competitions_each_holder_l {
+      width: 90%;
+      margin: 20px 5% 0 5%;
+      text-align: left;
+      float: left;
+  }
+  .user_competitions_each_holder_l img {
+      width: 125px;
+      height: auto;
+      margin: auto;
+      display: inline-block;
+  }
+  .user_competitions_each_holder_r {
+      width: 90%;
+      margin: 15px 5% 0 5%;
+      float: left;
+  }
+  .home_main_link_top {
+      float:none;
+  }
+}
+
+.user_competitions_each_header {
+  width: 100%;
+  padding: 0px 0 10px 0;
+  font-size: 20px;
+  float: left;
+}
+
+.user_competitions_each_header a {
+  color: #00b8e6;
+}
+
+.user_competitions_each_links {
+  width: 100%;
+  margin: 5px 0 0 0;
+  float: left;
+}
+
+.user_competitions_each_links a {
+  margin: 0 10px 15px 0;
+  padding: 7px 14px 7px 14px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration:none;
+  background: #bbb;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -o-border-radius: 30px;
+  float: left;
+}
+
+#get_embed_code {
+  width: 94%;
+  max-width: 500px;
+  padding: 10px 3% 10px 3%;
+  color: #999;
+  font-size: 15px;
+  text-align: center;
+  line-height: 24px;
+  text-decoration:none;
+  border: 3px solid #f0f0f0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  outline: none;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+}
+
+#get_embed_code:focus {
+  outline: none;
+  border-color:#ddd;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.get_embed_code {
+    width:100%;
+    margin: 6px 0 0px 0;
+    color: #33adff;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+}
+
+.get_embed_code a {
+    margin: 0;
+    color: #33adff;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+}
+
+.get_embed_code img {
+    margin-right: 7px;
+    width: 15px;
+    float: left;
+}
+
+.user_competitions_each_textarea {
+  width: 94%;
+  height: 90px;
+  margin: 15px 0 0px 0;
+  padding: 10px 3% 10px 3%;
+  color: #999;
+  font-size: 14px;
+  line-height: 22px;
+  border: 2px solid #f8f8f8;
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  float: left;
+  display: none;
+}
+
+.user_competitions_each_textarea_message {
+  width: 100%;
+  margin: 10px 0 15px 0;
+  color: #777;
+  font-size: 14px;
+  line-height: 22px;
+  float: left;
+  display: none;
+}
+
+.user_examples_link_holder {
+  margin:0 10px 10px 0;
+  text-align:center;
+  float:left;
+}
+
+#user_examples_wrapper {
+  width:84%;
+  margin:20px 8% 25px 8%;
+  padding:5px 30px 20px 30px;
+  text-align:center;
+  float:left;
+}
+
+.user_examples_link_holder a {
+  padding:9px 16px;
+  margin:auto;
+  font-size:16px;
+  text-align:center;
+  text-decoration:none;
+  border-radius:30px;
+  display:inline-block;
+}
+
+.user_account_getting_started_link {
+  font-weight:bold;
+}
+
+.entry_methods_box_holder, .entry_methods_box_holder_3 {
+  width: 100%;
+  margin: 0 0 10px 0;
+  text-align:left;
+  float: left;
+}
+
+.entry_methods_box_holder_3 {
+  width: 100%;
+  padding: 20px;
+  background:#fff;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgb(215, 215, 215);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(215, 215, 215);
+  box-shadow: 0px 0px 13px 0px rgba(215, 215, 215);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.entry_methods_box_holder_header {
+  margin: 0 0 15px 0;
+  color: #444;
+  font-weight: bold;
+}
+
+.entry_methods_box_holder_header_h2 {
+  margin: 0 0 30px 0;
+  color: #444;
+  font-weight: bold;
+}
+
+.entry_methods_box_holder_2 {
+  width: 100%;
+  padding: 15px 20px 20px 20px;
+  background: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgb(215, 215, 215);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(215, 215, 215);
+  box-shadow: 0px 0px 13px 0px rgba(215, 215, 215);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+.entry_methods_box_holder_header_desc {
+  width: 100%;
+  margin: 0 0 15px 0;
+  color: #999;
+  font-size: 15px;
+  font-style: normal;
+  float: left;
+}
+
+.entry_methods_box_holder_header_2 {
+  width: 100%;
+  margin: 10px 0 15px 0;
+  color: #444;
+  font-size: 15px;
+  font-style: normal;
+  float: left;
+}
+
+.entry_method_body_inner, .unlock_rewards_body_inner {
+  width: 100%;
+  margin: 0px 0 0 0;
+  background:#f6f6f6;
+  border-radius:0 0 10px 10px;
+  float: left;
+}
+
+.verification_radio_buttons {
+  width: 100%;
+  margin: 0px 0 0 0;
+  font-size:15px;
+  font-style:normal;
+  float: left;
+}   
+
+@media screen and (min-width: 801px) {
+
+  .entry_methods_box_holder {
+      width: 100%;
+      padding: 0;
+  }
+  
+}
+
+.user_account_getting_started_links_wrapper {
+  width:100%;
+  margin:20px 0 0px 0;
+  padding:30px 0 10px 0;
+  text-align:center;
+  float:left;
+}
+
+.user_account_getting_started_link {
+  width:30%;
+  margin:0px 1.5% 20px 1.5%;
+  text-align:center;
+  float:left;
+}
+
+.user_account_getting_started_link a {
+  font-size:17px;
+}
+
+.user_account_getting_started_link_line {
+  padding-bottom:3px;
+  border-bottom:2px solid;
+}
+
+@media only screen and (max-width:1280px) {
+
+  .user_account_getting_started_links_wrapper {
+      margin:20px 0 -10px 0;
+      padding:0px 0 40px 0;
+  }
+
+  .user_account_getting_started_link {
+      width:100%;
+      margin:30px 0 0 0;
+      text-align:center;
+      float:left;
+  }
+
+}
